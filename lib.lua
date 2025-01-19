@@ -2075,6 +2075,7 @@ do
                     local opened = false
 
                     local dropdownholder = utility.create("Frame", {
+                        ZIndex = 9
                         Size = UDim2.new(1, -5, 0, 32),
                         BackgroundTransparency = 1,
                         Position = UDim2.new(0, 0, 0, 0),
